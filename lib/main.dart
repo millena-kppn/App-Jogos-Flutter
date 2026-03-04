@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'App de Jogos',
+      theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
+      ),
       home: const LoginScreen(),
     );
   }
